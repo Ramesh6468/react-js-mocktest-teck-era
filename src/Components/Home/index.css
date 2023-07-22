@@ -1,0 +1,43 @@
+.successCard {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #1e293b;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failureImage {
+  height: 250px;
+}
+.error1 {
+  color: #475569;
+  font-weight: bold;
+}
+.errorPara {
+  color: #64748b;
+  font-family: Roboto;
+}
+.retryButton {
+  background-color: #4656a1;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.loader {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}

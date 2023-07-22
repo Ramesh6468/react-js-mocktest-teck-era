@@ -1,0 +1,16 @@
+.item {
+  list-style-type: none;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.logo {
+    height: 100px;
+    margin: 10px;
+}
+.name1 {
+    color: #1e293b;
+    font-weight: bold;
+    font-size: 20px;
+}
